@@ -9,10 +9,7 @@ export default function App() {
       <div className="flex-grow flex items-center justify-center">
         <div className="bg-white/20 backdrop-blur-md shadow-xl rounded-2xl p-10 text-center w-full max-w-md">
           <h1 className="text-4xl font-bold mb-4">🚀 Welcome to Vite + Tailwind!</h1>
-          <p className="text-lg mb-6">
-            This is a <span className="font-semibold">modern React app</span> styled with{" "}
-            <span className="font-semibold">TailwindCSS</span>.
-          </p>
+         
 
           <button
             onClick={() => setCount(count + 1)}
